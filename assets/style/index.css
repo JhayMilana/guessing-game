@@ -4,7 +4,7 @@ body {
   background-color: #ffa7b6;
 }
 
-main {
+section {
   display: grid;
   place-items: center;
 }
@@ -41,8 +41,8 @@ form {
   font-weight: 600;
 }
 
-
 .output {
+  margin-left: 715px;
   margin-top: 20px;
   width: 470px;
   height: 52px;
@@ -56,4 +56,5 @@ form {
   color: white;
   line-height: 52px;
   cursor: default;
+  text-align: center;
 }

@@ -6,6 +6,7 @@
 const form = document.querySelector('form');
 const output = document.querySelector('.output p');
 const guess = document.querySelector('.guess');
+const number = document.querySelector('.number');
 
 
 function isNumber(num) {
@@ -20,6 +21,8 @@ function randomNumber() {
 }
 
 guess.addEventListener('click', function() {
+  let a = number.value.trim();
+
   if (isNumber(a)) {
     if (isNumber(a) < randomNumber()) {
       output.innerText = 'My number is bigger';

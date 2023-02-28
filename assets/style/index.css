@@ -1,6 +1,42 @@
-@charset "UTF-8";
+@import url(./reset.css);
 
-output {
-  color: black;
-  font-size: 15px;
+body {
+  background-color: #ffa7b6;
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+  margin-top: 140px;
+}
+
+form {
+  display: grid;
+  margin-top: 10px;
+}
+
+.number {
+  margin: 5px;
+  
+}
+
+.output {
+  width: 100%;
+  margin-top: 20px;
+  height: 52px;
+  padding: 0 15px;
+  border-radius: 5px;
+  background-color: #ff748c;
+}
+
+.output p {
+  font-size: 17px;
+  color: var(--app-white);
+  line-height: 52px;
+  cursor: default;
 }

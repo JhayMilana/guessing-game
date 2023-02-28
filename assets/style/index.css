@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
-main {
-  height: 100vh;
-  background-color: #ffc0cb;
-  display: grid;
-  place-items: center;
-}
-
-h1, h2 {
-  color: white;
-  letter-spacing: 0.4px;
+output {
+  color: black;
+  font-size: 15px;
 }
